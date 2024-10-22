@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "la_vida_es_bella.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
