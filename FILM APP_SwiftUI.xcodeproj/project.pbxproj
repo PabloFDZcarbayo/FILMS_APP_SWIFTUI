@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E59F8BF2CDBECA500D87F1E /* Color+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E59F8BE2CDBECA500D87F1E /* Color+extension.swift */; };
 		6EB9E88B2CC7137F000C9765 /* FILM_APP_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB9E88A2CC7137F000C9765 /* FILM_APP_SwiftUIApp.swift */; };
 		6EB9E88F2CC71384000C9765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB9E88E2CC71384000C9765 /* Assets.xcassets */; };
 		6EB9E8922CC71384000C9765 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB9E8912CC71384000C9765 /* Preview Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E59F8BE2CDBECA500D87F1E /* Color+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+extension.swift"; sourceTree = "<group>"; };
 		6EB9E8872CC7137F000C9765 /* FILM APP_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FILM APP_SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB9E88A2CC7137F000C9765 /* FILM_APP_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FILM_APP_SwiftUIApp.swift; sourceTree = "<group>"; };
 		6EB9E88E2CC71384000C9765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				6EB9E8992CC7142B000C9765 /* Film.swift */,
+				6E59F8BE2CDBECA500D87F1E /* Color+extension.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EB9E89A2CC7142B000C9765 /* Film.swift in Sources */,
+				6E59F8BF2CDBECA500D87F1E /* Color+extension.swift in Sources */,
 				6EB9E8A02CC71E48000C9765 /* ListView.swift in Sources */,
 				6EB9E88B2CC7137F000C9765 /* FILM_APP_SwiftUIApp.swift in Sources */,
 				6EB9E89C2CC7156A000C9765 /* RowView.swift in Sources */,

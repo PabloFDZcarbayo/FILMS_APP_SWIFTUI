@@ -13,19 +13,23 @@ struct RowView: View {
     var body: some View {
         
         HStack{
+            
             Image("Icon_film")
                 .resizable()
                 .frame(width: 40, height: 40)
                 .padding(5)
+                .foregroundColor(Color(hex:"a53860"))
            
             Text(film.titulo)
                 .font(.title3)
-                .foregroundColor(Color.init(red:26/255,green: 117/255, blue:255/255))
+                .foregroundColor(Color(hex:"0d5c63"))
             
             Spacer()
                 
             
-        } 
+        } .background(Color(hex:"#78cdd7"))
+            .cornerRadius(20)
+            .overlay(RoundedRectangle(cornerRadius: 20).stroke(Color(hex:"0d5c63"), lineWidth: 3))
     }
         
 }

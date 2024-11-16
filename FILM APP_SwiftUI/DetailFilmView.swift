@@ -12,12 +12,8 @@ struct DetailFilmView: View {
     var body: some View {
         
         VStack {
-            Text ("Detalle")
-                .font(.subheadline)
-                .fontWeight(.light)
-                .multilineTextAlignment(.center)
-                
-        
+           
+
             Text(film.titulo)
                 .font(.title2)
                 .foregroundColor(Color.init(red:26/255,green: 117/255, blue:255/255))
@@ -44,7 +40,7 @@ struct DetailFilmView: View {
                 .font(.body)
                 .fontWeight(.thin)
                 .frame(width: 340,height: 110)
-                .background(Color.init(red:230/255,green: 204/255, blue :255/255))
+                .background(Color(hex:"#78cdd7"))
                 .cornerRadius(10)
                 .padding(20)
                 
